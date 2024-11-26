@@ -33,15 +33,8 @@ This project aims to classify handwritten letters (A-Z) from images using a Conv
    - The model predicts the letter from an image using the trained CNN.
 
 ## Limitations
-- Small dataset size led to overfitting and poor generalization.
+- Small dataset size led to poor generalization (only 300 instances).
 - Variability in handwriting styles, lighting, angles, and image quality reduced performance.
-- The current preprocessing and cropping methods might not effectively focus on the handwritten letters.
-
-## Potential Improvements
-- Expand the dataset with diverse handwriting styles and better-quality images.
-- Explore advanced image augmentation techniques like Gaussian blur and Canny edge detection.
-- Optimize preprocessing steps to better align letters in the input images.
-- Test alternative CNN architectures and hyperparameter combinations.
 
 ## Setup Instructions
 1. Clone this repository.
